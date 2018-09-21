@@ -36,4 +36,4 @@ Want to add your voice of support? Here's how to make an #IBelieveChristineBlase
 
 Here's an example:
 
-[![#IBelieveChristineBlaseyFord video](http://img.youtube.com/vi/TPwSM3C0Pnc/0.jpg)](http://www.youtube.com/watch?v=TPwSM3C0Pnc "#IBelieveChristineBlaseyFord")
+[![#IBelieveChristineBlaseyFord video](http://img.youtube.com/vi/HzKb8IGjg6Y/0.jpg)](http://www.youtube.com/watch?v=HzKb8IGjg6Y "#IBelieveChristineBlaseyFord")
