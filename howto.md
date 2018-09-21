@@ -7,7 +7,7 @@ Want to add your voice of support? Here's how to make an #IBelieveChristineBlase
 
 * Hold up #IBelieveChristineBlaseyFord on a piece of paper.
 
-* Start by saying clearly: **"I believe Christine Blasey Ford."**
+* Start by saying clearly: **"I believe Christine Blasey Ford."**  ("Blasey" is <a href="https://www.youtube.com/watch?v=B4tReT7HeGE&t=31s">pronounced "Blahzee"</a>.)
 
 * Declare your support for women who report abuse,
   in a way that has integrity for you.
