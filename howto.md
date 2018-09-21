@@ -28,9 +28,9 @@ Want to add your voice of support? Here's how to make an #IBelieveChristineBlase
 
 ```
     #IBelieveChristineBlaseyFord.
-    If you believe her too, it's time to speak up.
+    If you believe her too, join me in speaking up.
     http://ibelievechristineblaseyford.net/howto.html
-    It's your turn: @friend1 @friend2 @friend3
+    Hey, @friend1 @friend2 @friend3, let's do this.
 ```
 
 * Post on Facebook, Instagram, Twitter, or all three -- the more the merrier.
