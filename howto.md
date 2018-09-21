@@ -15,7 +15,7 @@ Want to add your voice of support? Here's how to make an #IBelieveChristineBlase
   Some examples of things you could say:
     * **"We should be listening to women who come forward to report abuse."**
     * **"It takes tremendous courage to come forward, as she did."**
-    * **"Her account is credible and deserves an impartial investigation."**
+    * **"Her account is credible and deserves a full investigation."**
     * **"When a survivor of abuse chooses to share her story, she deserves our support."**
 
 * End by saying: **"If you're watching this video,
