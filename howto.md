@@ -31,3 +31,7 @@ Want to add your voice of support? Here's how to make an #IBelieveChristineBlase
     If you believe her too, it's time to speak up.
     It's your turn: @friend1 @friend2 @friend3
 ```
+
+Here's an example:
+
+[(http://img.youtube.com/vi/TPwSM3C0Pnc/0.jpg)](http://www.youtube.com/watch?v=TPwSM3C0Pnc "#IBelieveChristineBlaseyFord")
