@@ -23,11 +23,11 @@ Want to add your voice of support? Here's how to make an #IBelieveChristineBlase
   share it with your friends -- especially if you're a man."**
 
 * Use the tag **#IBelieveChristineBlaseyFord**
-  and ask three friends to participate,
+  and tag three people you think should participate,
   by pasting this text into your post:
 
 ```
     #IBelieveChristineBlaseyFord.
     If you believe her too, it's time to speak up.
-    It's your turn: @friend1 @friend2 @friend3
+    It's your turn: @friend1 @friend2 @celebrity3
 ```
