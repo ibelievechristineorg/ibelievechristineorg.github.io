@@ -12,7 +12,6 @@ Want to add your voice of support? Here's how to make an #IBelieveChristineBlase
 * Declare your support for women who report abuse.  Speak from the heart, but don't make it about yourself, and keep it short.  It could be as simple as any of these:
     * **"We should be listening to women who come forward to report abuse."**
     * **"When a survivor of abuse chooses to share her story, she deserves our support."**
-    * **""**
 
 * Close with: **"If you're watching this video, I challenge you to make your own and share it with your friends --- especially if you're a man."**
 
