@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+In news reports and interviews, men have been disappointingly absent
+from the voices of support for Dr. Christine Blasey Ford.
+We believe men should be stepping up to show that they believe Dr. Blasey,
+and that men should support women when they come forward to report abuse.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Regardless of whether Dr. Blasey chooses to testify on Monday,
+we want to make sure that voices of support come through for her,
+especially before the scheduled committee hearing.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
