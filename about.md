@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-We noticed that men have been disappointingly absent
+We noticed that men have seemed disappointingly absent
 from the voices of support for Dr. Christine Blasey Ford.
 We don't think it's right that the loudest voices of men
 are from a small group attacking her,
