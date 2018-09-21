@@ -34,6 +34,8 @@ Want to add your voice of support? Here's how to make an #IBelieveChristineBlase
 
 * Post on Facebook, Instagram, Twitter, or all three -- the more the merrier.
 
-Here's an example:
+Here are a couple of examples:
 
-[![#IBelieveChristineBlaseyFord video](http://img.youtube.com/vi/HzKb8IGjg6Y/0.jpg)](http://www.youtube.com/watch?v=HzKb8IGjg6Y "#IBelieveChristineBlaseyFord")
+[![#IBelieveChristineBlaseyFord video by Ping](http://img.youtube.com/vi/HzKb8IGjg6Y/0.jpg)](http://www.youtube.com/watch?v=HzKb8IGjg6Y "#IBelieveChristineBlaseyFord")
+
+[![#IBelieveChristineBlaseyFord video by Nadav](http://img.youtube.com/vi/w2EzvjajZ3k/0.jpg)](http://www.youtube.com/watch?v=w2EzvjajZ3k "#IBelieveChristineBlaseyFord")
