@@ -3,6 +3,50 @@
 
   {%- include head.html -%}
 
+  <style>
+    .tab-bar {
+      display: inline-block;
+    }
+
+    .tab {
+      display: inline-block;
+      padding: 4px 8px;
+      border: 1px solid #666;
+      border-bottom: none;
+      cursor: pointer;
+    }
+
+    .tab.selected {
+      background: #369;
+      color: #fff;
+    }
+
+    .tab-content.hidden {
+      display: none;
+    }
+
+    .tab-content.visible {
+      display: block;
+      padding: 4px 8px;
+      border: 1px solid #666;
+    }
+  </style>
+
+  <script>
+    function $(id) {
+      return document.getElementById(id);
+    }
+    function select(name) {
+      $('facebook-tab').className = 'tab';
+      $('twitter-tab').className = 'tab';
+      $('instagram-tab').className = 'tab';
+      $('facebook-content').className = 'tab-content hidden';
+      $('twitter-content').className = 'tab-content hidden';
+      $('instagram-content').className = 'tab-content hidden';
+      $(name + '-tab').className = 'tab selected';
+      $(name + '-content').className = 'tab-content visible';
+    }
+  </script>
   <body>
 
     {%- include header.html -%}
@@ -73,6 +117,48 @@ and share it with your friends, especially if you're a man.
       </li>
 
       <li>
+        Use your phone to record your video:
+        <div class="tab-bar">
+          <div id="facebook-tab" class="tab selected" onclick="select('facebook')">Facebook</div>
+          <div id="twitter-tab" class="tab" onclick="select('twitter')">Twitter</div>
+          <div id="instagram-tab" class="tab" onclick="select('instagram')">Instagram</div>
+        </div>
+        <div class="tab-stack">
+          <div class="tab-content visible" id="facebook-content">
+            <ol>
+              <li>At the top of your Facebook feed, tap <img src="fb-photo-32.png"> next to "What's on your mind?"</li>
+              <li>Turn on your camera by tapping <img src="fb-camera-32.png"> in the top right.</li>
+              <li>Switch to video mode by tapping <img src="fb-video-32.png"> at the bottom.</a>
+              <li>Flip to the selfie camera by tapping <img src="fb-flip-32.png"> at the top.</li>
+              <li>Record!</li>
+            </ol>
+          </div>
+          <div class="tab-content hidden" id="twitter-content">
+            <ol>
+              <li>In the Twitter app, start a tweet.</li>
+              <li>Turn on your camera by tapping the Camera button in the bottom left.</li>
+              <li>Switch to video mode by tapping the red video icon in the bottom left.</li>
+              <li>Flip to the selfie camera by tapping the turny button in the top right.</li>
+              <li>Record!</li>
+            </ol>
+          </div>
+          <div class="tab-content hidden" id="instagram-content">
+            <ol>
+              <li>In the Instagram app, tap the plus button at the bottom.</li>
+              <li>Tap VIDEO at the bottom right.</li>
+              <li>Tap the turny button at the bottom left.</li>
+              <li>Hold the button to record!</li>
+            </ol>
+          </div>
+        </div>
+        <p></p>
+      </li>
+
+      <li>
+        <p>
+          Post on Facebook, Instagram, Twitter,
+          or all three&mdash;the more the better.
+        </p>
         <p>
           Here's some text to use in your post.
           Be sure to include this hashtag,
@@ -87,13 +173,6 @@ http://ibelievechristineblaseyford.net/howto.html
 Hey, <var>@friend1 @friend2 @friend3</var>, let's do this.</code></pre>
             </div>
           </div>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Post on Facebook, Instagram, Twitter,
-          or all three&mdash;the more the better.
         </p>
       </li>
     </ul>
