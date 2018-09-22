@@ -5,8 +5,12 @@ layout: page
 If you believe Dr. Christine Blasey Ford, it's time to speak up.
 
 We are encouraging everyone to show that they believe Dr. Blasey.
-In particular, if you're a man, we're asking you to step up now.
+But we've been disappointed to see relatively few men's voices of support;
+_in particular_, if you're a man, we're asking you to step up now.
+
 We believe men should support women when they come forward to report abuse.
+It's not right for the most visible men to be a small group attacking her,
+and it's not right for women to have to stand alone.  Let's change that.
 
 [Here's how to participate.](howto.html)
 
