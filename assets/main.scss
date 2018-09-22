@@ -1,0 +1,22 @@
+---
+---
+
+@import "minima";
+
+/** Site title */
+.site-title {
+  letter-spacing: 0;
+}
+
+/** Content */
+q {
+  color: #082;
+}
+pre var {
+  color: #620;
+}
+
+/** Definition lists */
+dd {
+  margin-left: $spacing-unit;
+}
