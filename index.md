@@ -1,5 +1,6 @@
 ---
-layout: page
+title: #IBelieveChristineBlaseyFord
+layout: index
 ---
 
 If you believe Dr. Christine Blasey Ford, it's time to speak up.
