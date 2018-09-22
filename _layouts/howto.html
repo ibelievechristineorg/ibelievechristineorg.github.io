@@ -90,6 +90,9 @@
     function checkIfEdited() {
       speechEdited = ($('speech').value.trim() !== getComputedSpeech().trim());
       $('canned-phrases').className = speechEdited ? 'disabled' : 'enabled';
+      for (var i = 1; i <= 4; i++) {
+        $('c' + i).disabled = speechEdited;
+      }
     }
 
     function getComputedSpeech() {
