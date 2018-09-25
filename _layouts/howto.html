@@ -1,234 +1,39 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <meta http-equiv="refresh" content="0; http://ibelievechristine.com/">
-
+  <meta http-equiv="refresh" content="0; http://ibelievechristine.com/howto.html">
   {%- include head.html -%}
-
   <style>
-    .tab-bar {
+    .hidden { visibility: hidden; }
+    .post a {
       display: inline-block;
-    }
-
-    .tab {
-      display: inline-block;
-      padding: 4px 8px;
-      border: 1px solid #666;
-      border-bottom: none;
-      cursor: pointer;
-    }
-
-    .tab.selected {
-      background: #369;
+      padding: 12px 24px;
+      font-size: 18px;
       color: #fff;
-    }
-
-    .tab-content.hidden {
-      display: none;
-    }
-
-    .tab-content.visible {
-      display: block;
-      padding: 4px 8px;
-      border: 1px solid #666;
-    }
-
-    .tab-content.visible ol {
-      margin-top: 12px;
-      margin-bottom: 12px;
-    }
-
-    form input, form label {
-      cursor: pointer;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    input:checked + label {
-      font-weight: bold;
-    }
-
-    form.disabled, form.disabled label, form.disabled label q {
-      font-weight: normal;
-      color: #888;
+      background: #369;
+      border-radius: 12px;
     }
   </style>
 
-  <script>
-    function $(id) {
-      return document.getElementById(id);
-    }
-    function select(name) {
-      $('facebook-tab').className = 'tab';
-      $('twitter-tab').className = 'tab';
-      $('instagram-tab').className = 'tab';
-      $('facebook-content').className = 'tab-content hidden';
-      $('twitter-content').className = 'tab-content hidden';
-      $('instagram-content').className = 'tab-content hidden';
-      $(name + '-tab').className = 'tab selected';
-      $(name + '-content').className = 'tab-content visible';
-    }
-
-    var PROLOGUE = "I believe Christine Blasey Ford.";
-    var PLACEHOLDER = "[anything you want to add]";
-    var EPILOGUE =
-"If you're watching, I challenge you to make your own video\n" +
-"and share it with your friends, especially if you're a man.";
-
-    var DEFAULT_SPEECH = PROLOGUE + "\n\n" + PLACEHOLDER + "\n\n" + EPILOGUE;
-    var speechEdited = false;
-
-    function force() {
-      speechEdited = false;
-      updateSpeech();
-      checkIfEdited();
-    }
-
-    function updateSpeech() {
-      if (!speechEdited) $('speech').value = getComputedSpeech();
-    }
-
-    function checkIfEdited() {
-      speechEdited = ($('speech').value.trim() !== getComputedSpeech().trim());
-      $('canned-phrases').className = speechEdited ? 'disabled' : 'enabled';
-      for (var i = 1; i <= 4; i++) {
-        $('c' + i).disabled = speechEdited;
-      }
-    }
-
-    function getComputedSpeech() {
-      var middle = '';
-      for (var i = 1; i <= 4; i++) {
-        if ($('c' + i).checked) {
-          middle = middle + $('p' + i).innerText.trim() + '  ';
-        }
-      }
-      middle = middle.trim() || PLACEHOLDER;
-      return PROLOGUE + "\n\n" + middle + "\n\n" + EPILOGUE;
-    }
-  </script>
   <body>
-
     {%- include header.html -%}
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
+        <article class="post">
+          <p>Loading...</p>
 
-<article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-
-    <ul>
-      <li>
-        <p>
-          Use this box to plan what to say.
-          "Blasey" is
-          <a href="https://www.youtube.com/watch?v=B4tReT7HeGE&t=31s">pronounced
-            "Blahzee"</a>.
-        </p>
-
-<textarea id="speech" style="font-family: monospace; font-size: 16px" cols=60 rows=8 onchange="checkIfEdited()" oninput="checkIfEdited()">
-I believe Christine Blasey Ford.
-
-[anything you want to add]
-
-If you're watching, I challenge you to make your own video
-and share it with your friends, especially if you're a man.
-</textarea>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          If you want to add something in the middle part:
-          speak from the heart, but don't make it about yourself.
-          Examples of things to say:
-
-          <form id="canned-phrases">
-            <div>
-              <input type="checkbox" id="c1" onchange="updateSpeech()">
-              <label id="p1" for="c1"><q>We should listen to women who come forward to report abuse.</q></label>
-            </div>
-
-            <div>
-              <input type="checkbox" id="c2" onchange="updateSpeech()">
-              <label id="p2" for="c2"><q>When a survivor of abuse chooses to share her story,
-                  she deserves our support.</q></label>
-            </div>
-
-            <div>
-              <input type="checkbox" id="c3" onchange="updateSpeech()">
-              <label id="p3" for="c3"><q>It takes tremendous courage to come forward, as she did.</q></label>
-            </div>
-
-            <div>
-              <input type="checkbox" id="c4" onchange="updateSpeech()">
-              <label id="p4" for="c4"><q>Her account is credible,
-                  and it deserves a full and fair investigation.</q></label>
-            </div>
-          </form>
-          <button id="force" onclick="force()">Use your selections</button>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          If you have paper handy, write <b>#IBelieveChristine</b> on it
-          or <a href="ibelievechristine.pdf">print this out</a>.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Use the camera app on your phone
-          to record a 10-to-30-second video of yourself.
-          <b>It doesn't have to be polished; short and simple is great!</b>
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Share your video to Facebook, Twitter, or Instagram (or all three).
-          If you're posting to Facebook, please check the sharing settings and
-          <b>make your post public</b> to reach the widest audience.
-        </p>
-      </li>
-
-      <li>
-        <p>
-          Use this text in your post.
-          Include this hashtag, and tag a few friends (or public figures)
-          you think should participate.
-
-          <div class="highlighter-rouge">
-            <div class="highlight">
-<pre class="highlight"><code>#IBelieveChristine.
-If you believe her too, join me in speaking up:
-ibelievechristine.com/howto.html
-
-Hey, <var>@friend1 @friend2 @friend3</var>, let's do this.</code></pre>
-            </div>
+          <div id="link" class="hidden">
+            <a href="http://ibelievechristine.com/howto.html">This page has moved; click here to continue.</a>
           </div>
-        </p>
-      </li>
-    </ul>
 
-      </dd>
-    </dl>
-  </div>
-
-</article>
-
+          <script>
+            function show() {
+              document.getElementById('link').className = '';
+            }
+            setTimeout(show, 3000);
+          </script>
+        </article>
       </div>
     </main>
-
-    {%- include footer.html -%}
-
   </body>
-
 </html>
 
